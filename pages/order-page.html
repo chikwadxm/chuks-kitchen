@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order-Page</title>
+  <link rel="stylesheet" href="order-page.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;;700&family=Nunito:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/9969d36fcf.js"
+      cross-origin="anonymous"
+    ></script>
+</head>
+<body>
+  <nav>
+    
+      <div class="logo">Chuks Kitchen</div>
+    
+    
+      <ul class="nav-links">
+        <li><a href="/index.html" class="">Home</a></li>
+        <li><a href="explore.html" class="">Explore</a></li>
+        <li><a href="orders.html" class="">My Orders</a></li>
+        <li><a href="account.html" class="">Account</a></li>
+      </ul>
+      <button class="btn-login">Login</button>
+    
+    
+    
+  </nav>
+
+  <section>
+    <div class="product-card">
+      <div class="product-image">
+        <img src="jollof.png" alt="JollofImage">
+      </div>
+
+      <div class="product-details">
+        <button class="close-btn">x</button>
+        <h1 class="product-title">Jollof Rice with Fried Chicken</h1>
+        <p class="product-price">N2,800</p>
+        <p class="prod-desc">Our signature Jollof rice, cooked to perfection with aromatic spices, served with juicy,golden-fried chicken. A classsic Nigerian comfort food, rich in flavor and satisfaction. Perfect for a quick lunch or a hearty dinner</p>
+
+      
+      <div class="tags">
+        <span class="tag">Mildly spicy</span>
+        <span class="tag">Vegetarian option available</span>
+        <span class="tag-link">View allergies</span>
+      </div>
+
+      <div class="section-label">Choose Your Protein</div>
+      <div class="options-group" id="protein-group">
+
+        <label class="option-row selected" data-val="chicken">
+           <input type='radio' name="protein" value="chicken" />
+         
+          <div class="radio-circle"></div>
+          
+          <span class="option-label">Fried Chicken</span>
+          <span class="option-price">(Default)</span>
+        </label>
+
+        <label class="option-row selected" data-val="fish">
+           <input type='radio' name="protein" value="fish" />
+         
+          <div class="radio-circle"></div>
+          
+          <span class="option-label">Grilled Fish</span>
+          <span class="option-price">+500</span>
+        </label>
+
+        <label class="option-row selected" data-val="beef">
+           <input type='radio' name="protein" value="beef" />
+         
+          <div class="radio-circle"></div>
+          
+          <span class="option-label">Beef</span>
+          <span class="option-price">+700</span>
+        </label>
+
+        
+
+        <div class="section-label">Extra Sides(Optional)</div>
+        <div class="options-group">
+
+          <div class="check-row" onclick="toggleCheck(this)">
+            <div class="checkbox-box"></div>
+            <span class="option-label">Fried Plantain</span>
+            <span class="option-price">+N700</span>
+          </div>
+
+          <div class="check-row" onclick="toggleCheck(this)">
+            <div class="checkbox-box"></div>
+            <span class="option-label">Coleslaw</span>
+            <span class="option-price">+N500</span>
+          </div>
+
+          <div class="check-row" onclick="toggleCheck(this)">
+            <div class="checkbox-box"></div>
+            <span class="option-label">Extra Pepper Sauce</span>
+            <span class="option-price">+N300</span>
+          </div>
+        </div>
+        <div class="section-label">Special Instructions</div>
+        <textarea class="instrcutions-area" placeholder="E.g add more spice"></textarea>
+      
+
+
+      </div>
+
+
+    </div>
+    
+    
+  </section>
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+      <span class="logo">Chuks Kitchen</span>
+      <p>Bringing the authentic flavors of Nigerian home cooking to your table, with passion and care.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+     <ul>
+       <li><a href="home.html">Home</a></li>
+       <li><a href="explore.html">Explore</a></li>
+       <li><a href="orders.html">My Orders</a></li>
+       <li><a href="account">Account</a></li>
+     </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <ul>
+        <li>+234 801 234 5678</li>
+        <li>hello@chukskitchen.com</li>
+        <li>123 Taste Blvd Lagos, Nigeria.</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Follow Us</h4>
+      <ul>
+        <li><a href="">Facebook</a></li>
+        <li><a href="">Twitter</a></li>
+        <li><a href="">LinkedIn</a></li>
+        <li><a href="">Instagram</a></li>
+      </ul>
+    </div>
+
+
+
+  </div>
+
+</body>
+</html>
